@@ -1,4 +1,4 @@
-# breeze-nexttick
+# breeze-nexttick [![Build Status](https://secure.travis-ci.org/qualiancy/breeze-nexttick.png?branch=master)](https://travis-ci.org/qualiancy/breeze-nexttick)
 
 > `process.nextTick` shim for node.js and the browser
 

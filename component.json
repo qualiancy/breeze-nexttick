@@ -1,8 +1,8 @@
 {
-    "name": "breeze-nextTick"
-  , "repo": "qualiancy/breeze-nextTick"
+    "name": "breeze-nexttick"
+  , "repo": "qualiancy/breeze-nexttick"
   , "version": "0.0.0"
-  , "description": "process.nextTick shim for the browser"
+  , "description": "process.nextTick shim for node.js and the browser"
   , "license": "MIT"
   , "keywords": [
     ]

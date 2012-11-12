@@ -1,12 +1,34 @@
-# breeze-nextTick
+# breeze-nexttick
 
-> process.nextTick shim for the browser
+> `process.nextTick` shim for node.js and the browser
 
 #### Installation
 
-`breeze-nextTick` is available on [npm](http://npmjs.org).
+##### Node.js
 
-    npm install breeze-nextTick
+`breeze-nexttick` is available on [npm](http://npmjs.org).
+
+    npm install breeze-nexttick
+
+##### Component
+
+`breeze-nexttick` is available as a [component](https://github.com/component/component).
+
+    $ component install qualiancy/breeze-nexttick
+
+#### Usage
+
+`breeze-nextTick` allows you to utilize nextTick semantics in both node.js and the browser with 
+no changes to your code. In node it will use `process.nextTick`, but in the browser it will attempt
+to use `postMessage`. If either of the previous are not available, it will default to `setTimeout(fn, 0)`. 
+
+```js
+var nextTick = require('breeze-nexttick');
+
+nextTick(function () {
+  // ...
+});
+```
 
 #### License
 

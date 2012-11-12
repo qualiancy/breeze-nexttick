@@ -1,14 +1,14 @@
 {
-    "name": "breeze-nextTick"
+    "name": "breeze-nexttick"
   , "version": "0.0.0"
-  , "description": "process.nextTick shim for the browser"
+  , "description": "process.nextTick shim for node.js and the browser"
   , "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)"
   , "license": "MIT"
   , "keywords": [
     ]
   , "repository": {
         "type": "git"
-      , "url": "git@github.com:qualiancy/breeze-nextTick.git"
+      , "url": "git@github.com:qualiancy/breeze-nexttick.git"
     }
   , "engines": {
       "node": "*"

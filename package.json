@@ -1,6 +1,6 @@
 {
     "name": "breeze-nexttick"
-  , "version": "0.2.0"
+  , "version": "0.2.1"
   , "description": "process.nextTick shim for node.js and the browser"
   , "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)"
   , "license": "MIT"

@@ -6,9 +6,9 @@
   , "license": "MIT"
   , "keywords": [
     ]
-  , "main": "lib/nextTick.js"
+  , "main": "index.js"
   , "scripts": [
-        "lib/nextTick.js"
+        "index.js"
     ]
   , "dependencies": {}
   , "development": {}

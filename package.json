@@ -17,8 +17,7 @@
   , "scripts": {
       "test": "make test"
     }
-  , "dependencies": {
-    }
+  , "dependencies": {}
   , "devDependencies": {
         "chai": "*"
       , "component": "*"
